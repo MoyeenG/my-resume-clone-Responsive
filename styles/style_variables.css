@@ -1,0 +1,39 @@
+:root {
+  --brown: rgb(244, 238, 228);
+  --gray: rgb(122, 122, 122);
+  --light_gray: rgb(176, 176, 176);
+
+  --font_size_name: 2.7vw;
+
+  --font_size_title: 1.3vw;
+  --font_weight_title: 500;
+
+  --font_size_p: 1.4vw;
+
+  --font_size_h2: 1.3vw;
+  --font_weight_h2: 600;
+
+  --font_size_h3: 1.05vw;
+
+  --font_size_proj_links: 1.3vw;
+  --font_weight_proj_links: 600;
+
+  --font_size_li: 1.3vw;
+
+  --font_size_contact_icons: 1.3vw;
+
+  --bar_color: rgb(133, 141, 153);
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --font_size_name: 3vw;
+    --font_size_title: 2.3vw;
+    --font_size_p: 2.4vw;
+    --font_size_h2: 2.6vw;
+    --font_size_li: 2.3vw;
+    --font_size_h3: 2.2vw;
+    --font_size_proj_links: 2vw;
+    --font_size_contact_icons: 2.5vw;
+  }
+}

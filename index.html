@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <title>Moyeen F. Godyari - Frontend</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Resume, Frontend, React JS, Web development">
+    <meta name="description"
+        content="A clone of my frontend developer resume using HTML, CSS (flexbox), with a responsive layout">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style_variables.css">
+    <link rel="stylesheet" href="styles/style_pg1.css">
+    <link rel="stylesheet" href="styles/style_pg2.css">
+    <script src="https://kit.fontawesome.com/32e9303376.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="main_flex_pg1">
+        <div id="bar1" class="greybar"></div>
+
+        <div id="flex_left_pg1">
+            <picture>
+                <source media="(max-width: 1200px)" srcset="images/photo_306p.jpg">
+
+                <source media="(max-width: 992px)" srcset="images/photo_198p.jpg">
+
+                <source media="(max-width: 768px)" srcset="images/photo_144p.jpg">
+
+                <source media="(max-width: 500px)" srcset="images/photo_90p.jpg">
+
+                <img id="my_pic" src="images/photo.jpg" alt="my photograph">
+            </picture>
+
+
+            <div id="contact_info">
+                <h2><img src="images/light_grey_square_2.jpg" alt="grey square logo">CONTACT</h2>
+                <ul>
+                    <li><i class="fa-solid fa-square-phone-flip fa-flip-horizontal icon_size"
+                            style="color: #9c9c9c;"></i>+91-9622511887</li>
+                    <li><i class="fa-solid fa-square-envelope icon_size" style="color: #9c9c9c;"></i><a
+                            href="mailto:moyeengodyari@gmail.com">moyeengodyari@gmail.com</a></li>
+                    <li><i class="fa-solid fa-location-dot icon_size" style="color: #9c9c9c;"></i>Srinagar, India</li>
+                    <li><i class="fa-brands fa-linkedin icon_size" style="color: #9c9c9c;"></i><a
+                            href="www.linkedin.com/in/moyeen-godyari-b5a344159">LinkedIn</a></li>
+                    <li><i class="fa-brands fa-github icon_size" style="color: #9c9c9c;"></i><a
+                            href="https://github.com/MoyeenG?tab=repositories">Github</a></li>
+                    <li><i class="fa-brands fa-hackerrank icon_size" style="color: #9c9c9c;"></i><a
+                            href="https://www.hackerrank.com/profile/moyeen">HackerRank</a></li>
+                    <li><img id="leetcode_icon" src="images/leetcode_20.png" alt="leetcode icon"><a
+                            href="https://leetcode.com/u/moyeengodyari/">Leetcode</a></li>
+                </ul>
+            </div>
+
+
+
+
+
+
+            <!-- "display: block;" above 768px width ----- "display: none;" below it-->
+
+            <div id="projects_section_container_1">
+                <div id="projects">
+                    <h2><img src="images/light_grey_square_2.jpg" alt="grey square logo">PERSONAL
+                        PROJECTS</h2>
+                    <div>
+                        <h3>Online code editor-React</h3>
+                        <div>
+                            <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+                            <p>
+                                Created an online code editor like codepen.io containing HTML, CSS, JavaScript coding
+                                sections
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3>Snake/Water/Gun-JS (Responsive)</h3>
+                        <div>
+                            <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+
+                            <p>A "single player" vs "computer" game also known as rock/paper/scissors</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3>My Resume Clone-HTML/CSS (Responsive)</h3>
+                        <div>
+                            <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+
+                            <p>A clone of this resume using HTML, CSS</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3>Webpages with animations-HTML/CSS (Responsive)</h3>
+                        <div>
+                            <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+
+                            <p>Responsive signin, signup and contactus pages with css animations</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3>Other small Tasks</h3>
+                        <ul>
+                            <li>
+                                <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+                                <p>Responsive Signin, contactus pages using basic css, with animations</p>
+                            </li>
+                            <li>
+                                <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+                                <p>Responsive website navigation bar</p>
+                            </li>
+                            <li>
+                                <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+                                <p>Responsive HTML form, using relative dimensions</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--        ------------------------------------------------------------         -->
+
+        </div>
+
+
+        <div id="flex_right_pg1">
+            <div id="name_title">
+                <h1 id="name">MOYEEN<br>GODYARI</h1>
+                <p id="title">FRONTEND DEVELOPER</p>
+            </div>
+
+
+            <div>
+                <div id="about_me">
+                    <h2><img class="square_logo" src="images/light_grey_square_2.jpg" alt="grey square logo">ABOUT ME
+                    </h2>
+                    <p>
+                        A dedicated an enthusiastic software developer with a strong foundation in
+                        frontend development and a continuous thirst for learning. My attention to
+                        detail and commitment to excellence make me a valuable asset to any development
+                        team
+                    </p>
+                </div>
+
+
+                <div id="experience">
+                    <h2>
+                        <img class="square_logo" src="images/light_grey_square_2.jpg" alt="grey square logo">EXPERIENCE
+                    </h2>
+                    <div id="trainer_skills">
+                        <h3>IT Trainer</h3>
+                        <p>Boys Hr. Secondary Institute, Srinagar</p>
+                        <p>July 2023 - Nov 2023</p>
+
+                        <ul>
+                            <li>Python</li>
+                            <li>DSA</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id="skills">
+                    <h2>
+                        <img class="square_logo" src="images/light_grey_square_2.jpg" alt="grey square logo">SKILLS
+                    </h2>
+                    <ul>
+                        <div id="skills_main">
+                            <li>C</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React JS</li>
+                            <li>SQL/MySQL</li>
+                            <li>DSA</li>
+                            <li>Git (Version Control)</li>
+                        </div>
+
+                        <div id="skills_other">
+                            <h4>Other skills</h4>
+                            <li>NumPy</li>
+                            <li>Pandas</li>
+                            <li>Matplotlib</li>
+                            <li>Seaborn</li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- "display: block;" below 768px width ----- "display: none;" above it-->
+
+        <div id="projects_section_container_2">
+            <div id="projects_2">
+                <h2>
+                    <img src="images/light_grey_square_2.jpg" alt="grey square logo">PERSONAL
+                    PROJECTS
+                </h2>
+                <div>
+                    <h3>Online code editor-React</h3>
+                    <div>
+                        <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+                        <p>
+                            Created an online code editor like codepen.io containing HTML, CSS, JavaScript coding
+                            sections
+                        </p>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h3>Snake/Water/Gun-JS (Responsive)</h3>
+                    <div>
+                        <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+
+                        <p>A "single player" vs "computer" game also known as rock/paper/scissors</p>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h3>My Resume Clone-HTML/CSS (Responsive)</h3>
+                    <div>
+                        <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+
+                        <p>A clone of this resume using HTML, CSS</p>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h3>Webpages with animations-HTML/CSS (Responsive)</h3>
+                    <div>
+                        <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+
+                        <p>Responsive signin, signup and contactus pages with css animations</p>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h3>Other small Tasks</h3>
+                    <ul>
+                        <li>
+                            <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+                            <p>Responsive Signin, contactus pages using basic css, with animations</p>
+                        </li>
+                        <li>
+                            <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+                            <p>Responsive website navigation bar</p>
+                        </li>
+                        <li>
+                            <a href=""><em>Netlify</em></a> <a href=""><em>Github</em></a>
+                            <p>Responsive HTML form, using relative dimensions</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--        ------------------------------------------------------------         -->
+
+
+        <div id="bar2" class="greybar"></div>
+    </div>
+
+
+
+
+
+
+
+    <div id="main_container_pg2">
+        <div id="bar3" class="greybar"></div>
+
+        <div id="flex_pg2">
+            <div id="flex_left_pg2">
+                <div id="education">
+                    <h2><img class="square_logo" src="images/light_grey_square_2.jpg" alt="grey square logo">EDUCATION
+                    </h2>
+
+                    <div>
+                        <h3>Master of Computer Applications</h3>
+                        <p>
+                            University of Kashmir
+                            <br>
+                            Srinagar, India
+                            <br>
+                            June 2015 - Sep 2021
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>Bachelor of Computer Applications</h3>
+
+                        <p>
+                            University of Kashmir
+                            <br>
+                            Srinagar, India
+                            <br>
+                            April 2011 - Sep 2014
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>Advanced Diploma in IT</h3>
+                        <p>
+                            Advantech Computer Education Institute
+                            <br>
+                            Srinagar, India
+                            <br>
+                            July 2008 - Aug 2010
+                        </p>
+                    </div>
+                </div>
+
+                <div id="certifications">
+                    <h2><img class="square_logo" src="images/light_grey_square_2.jpg"
+                            alt="grey square logo">CERTIFICATIONS
+                    </h2>
+                    <p><strong>Python Certification</strong>, TGC, New Delhi <br>Sep 2019 - Nov 2019</p>
+                    <p><strong>Short Term Course on Java</strong>, NIELIT, Srinagar <br> June 2014 - Aug 2014</p>
+                </div>
+            </div>
+
+            <div id="flex_right_pg2">
+
+                <h2><img class="square_logo" src="images/light_grey_square_2.jpg" alt="grey square logo">INTERNSHIPS
+                </h2>
+
+                <div id="newton_internship">
+                    <h3>MERN Stack</h3>
+
+                    <p>Newton School</p>
+                    <p>April 2022 - June 2023</p>
+
+                    <ul>
+                        <li>DSA</li>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript/React</li>
+                        <li>Node JS</li>
+                        <li>Express JS</li>
+                        <li>Mongo DB</li>
+                    </ul>
+                </div>
+
+                <div id="iquasar_internship">
+                    <h3>Business Development</h3>
+
+                    <p>iQuasar Software Solutions</p>
+                    <p>Jan 2021 - April 2021</p>
+
+                    <ul>
+                        <li>Collected contact information of prospective clients for the Company</li>
+                        <li>Sourced this information from US Government Web Portals</li>
+                        <li>Stored this information in Google Sheets and generated Leads</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="languages_container">
+            <h2><img id="languages_square_logo" class="square_logo" src="images/light_grey_square_2.jpg"
+                    alt="grey square logo">LANGUAGES</h2>
+
+            <div id="english_urdu">
+                <div id="english_container">
+                    <h3>English</h3>
+                    <ul>
+                        <li>Read</li>
+                        <li>Write</li>
+                        <li>Speak</li>
+                    </ul>
+                </div>
+
+                <div id="urdu_container">
+                    <h3>Urdu</h3>
+                    <ul>
+                        <li>Read</li>
+                        <li>Write</li>
+                        <li>Speak</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="hindi_container">
+                <h3>Hindi</h3>
+                <ul>
+                    <li>Speak</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="bar4" class="greybar"></div>
+    </div>
+</body>
+
+</html>

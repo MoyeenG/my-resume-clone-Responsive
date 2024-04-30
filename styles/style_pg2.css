@@ -1,0 +1,138 @@
+#main_container_pg2 {
+  border: 1px solid var(--light_gray);
+  width: 75%;
+  margin: 0 auto 30px;
+  padding: 100px 50px 300px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 8px rgb(241, 241, 241);
+  border-radius: 5px;
+  position: relative;
+}
+
+#flex_pg2 {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+#main_container_pg2 h2 {
+  line-height: 230%;
+  margin-top: 40px;
+  background-color: var(--brown);
+}
+
+#main_container_pg2 h3 {
+  font-size: var(--font_size_h3);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+#main_container_pg2 li {
+  font-size: var(--font_size_li);
+}
+
+#flex_left_pg2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#education,
+#certifications {
+  width: 100%;
+}
+
+#flex_right_pg2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 50%;
+  padding: 0 2vw;
+  box-sizing: border-box;
+}
+
+#flex_right_pg2 > h2,
+#newton_internship,
+#iquasar_internship {
+  width: 100%;
+}
+
+#newton_internship > p:nth-child(3),
+#iquasar_internship > p:nth-child(3) {
+  margin-left: 2vw;
+}
+
+#newton_internship > ul,
+#iquasar_internship > ul {
+  margin-left: 1.7vw;
+}
+
+#newton_internship > ul > li,
+#iquasar_internship > ul > li {
+  font-size: var(--font_size_li);
+  margin: 6px;
+}
+
+#languages_container h2 {
+  line-height: 230%;
+  margin-top: 40px;
+  background-color: var(--brown);
+}
+
+#english_container {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 49.75%;
+  padding-left: 2.8vw;
+}
+
+#urdu_container {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 49.75%;
+  padding-left: 2vw;
+}
+
+#hindi_container {
+  padding-left: 2.8vw;
+  padding-right: 0.6vw;
+}
+
+#languages_square_logo {
+  width: 1.5%;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+#bar3 {
+  top: 0;
+  left: 0;
+}
+
+#bar4 {
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #main_container_pg2 {
+    width: 100%;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+
+  #flex_pg2 {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 2%;
+  }
+
+  #flex_left_pg2,
+  #flex_right_pg2 {
+    width: 100%;
+  }
+}
